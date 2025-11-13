@@ -75,8 +75,9 @@ A secure Flutter application that implements phone number verification using Twi
 ## 📂 Project Structure
 ```
 lib/
-├── main.dart                    # App entry point & UI
-└── twilio_verify_service.dart   # Twilio API integration
+├── main.dart                     # App entry point
+├── otp_verification_screen.dart  # OTP Verification Screen UI & logic
+└── send_sms_feature.dart         # Twilio API integration for sending SMS
 
 .env                             # Environment variables (DO NOT COMMIT)
 .env.example                     # Template for environment variables
@@ -209,7 +210,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you encounter any issues or have questions:
 
 - 📧 Email: your.email@example.com
-- 🐛 [Open an issue](https://github.com/yourusername/twilio-otp-verify/issues)
+- 🐛 [Open an issue](https://github.com/mohanveera9/twilio_sms_tesing/issues)
 - 📚 [Twilio Support](https://support.twilio.com/)
 
 ---
